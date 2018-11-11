@@ -1,0 +1,222 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "que desejo adicionar uma conta",
+            "match": {},
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Deve validar regras cadastro contas",
+        "description": "",
+        "id": "cadastro-de-contas;deve-validar-regras-cadastro-contas;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "adiciono a conta \"Conta de Teste\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "recebo a mensagem \"Conta adicionada com sucesso!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Conta adicionada com sucesso!",
+                  "offset": 19
+                }
+              ],
+              "location": "InserirContasSteps.receboAMensagem(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionais"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "que desejo adicionar uma conta",
+            "match": {},
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Deve validar regras cadastro contas",
+        "description": "",
+        "id": "cadastro-de-contas;deve-validar-regras-cadastro-contas;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "adiciono a conta \"\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "recebo a mensagem \"Informe o nome da conta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Informe o nome da conta",
+                  "offset": 19
+                }
+              ],
+              "location": "InserirContasSteps.receboAMensagem(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionais"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "que desejo adicionar uma conta",
+            "match": {},
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Deve validar regras cadastro contas",
+        "description": "",
+        "id": "cadastro-de-contas;deve-validar-regras-cadastro-contas;;4",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "adiciono a conta \"Conta de Teste\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "recebo a mensagem \"Já existe uma conta com esse nome!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Já existe uma conta com esse nome!",
+                  "offset": 19
+                }
+              ],
+              "location": "InserirContasSteps.receboAMensagem(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionais"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de contas",
+    "description": "\r\nComo um usuário \r\nGostaria de cadastrar contas\r\nPara que eu possa distribuir meu dinheiro de uma forma mais organizada",
+    "id": "cadastro-de-contas",
+    "keyword": "Funcionalidade",
+    "uri": "inserir_conta.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@funcionais"
+      }
+    ]
+  }
+]
